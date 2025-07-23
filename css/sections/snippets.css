@@ -5,6 +5,7 @@
   flex-direction: column;
   align-items: center;
   gap: var(--spacing-800, 64px);
+  margin-bottom: 150px;
 }
 
 .snippets-description {
@@ -70,6 +71,7 @@
   #snippets {
     width: calc(616 / 768 * 100vw);
     gap: var(--spacing-1200, 96px);
+    margin-bottom: 157px;
   }
 
   .snippets-description {
@@ -81,8 +83,9 @@
 /* MOBILE */
 @media (max-width: 375px) {
   #snippets {
-    width: 312px;
+    width: calc(312 / 375 * 100vw);
     gap: var(--spacing-900, 72px);
+    margin-bottom: 177px;
   }
 
   .snippets-content {
