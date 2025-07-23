@@ -1,6 +1,7 @@
 header {
   width: 100vw;
-  min-height: 700px;
+  padding-top: 130px;
+  padding-bottom: 150px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -36,6 +37,11 @@ header {
 /* TABLET */
 
 @media (max-width: 768px) {
+  header {
+    padding-top: 131px;
+    padding-bottom: 158px;
+  }
+
   .header-content {
     width: calc(616 / 768 * 100vw);
   }
@@ -44,6 +50,10 @@ header {
 /* INTERMEDIATE */
 
 @media (max-width: 500px) {
+  header {
+    padding-top: 123px;
+  }
+
   .header-btns {
     flex-direction: column;
     align-items: stretch;
@@ -60,7 +70,7 @@ header {
   }
 
   .header-content {
-    width: 318px;
+    width: calc(318 / 375 * 100vw);
     gap: var(--spacing-800, 64px);
   }
 }

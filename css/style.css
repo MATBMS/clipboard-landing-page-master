@@ -26,6 +26,7 @@
 /* ==       SECTIONS          == */
 /* ============================= */
 
+@import url(./sections/access-anywhere.css);
 @import url(./sections/header.css);
-@import url(./sections/about.css);
-@import url(./sections/contact.css);
+@import url(./sections/snippets.css);
+@import url(./sections/workflow.css);
