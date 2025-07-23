@@ -1,1 +1,86 @@
+#workflow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: var(--spacing-900, 72px);
+  margin-bottom: 170px;
+}
 
+.workflow-description {
+  width: calc(730 / 1440 * 100vw);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-200, 16px);
+}
+
+.workflow-features {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--spacing-400, 32px);
+  align-self: stretch;
+}
+
+.workflow-feature {
+  display: flex;
+  width: calc(350 / 1440 * 100vw);
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-500, 40px);
+}
+
+.workflow-feature-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-200, 16px);
+  align-self: stretch;
+}
+
+.workflow-icon {
+  height: 40px;
+}
+
+/* TABLET */
+@media (max-width: 768px) {
+  #workflow {
+    margin-bottom: 155px;
+  }
+
+  .workflow-description {
+    width: calc(616 / 768 * 100vw);
+  }
+
+  .workflow-features {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-600, 48px);
+  }
+
+  .workflow-feature {
+    width: calc(400 / 768 * 100vw);
+  }
+}
+
+/* MOBILE */
+@media (max-width: 375px) {
+  #workflow {
+    gap: var(--spacing-1100, 88px);
+    margin-bottom: 145px;
+  }
+
+  .workflow-description {
+    width: calc(311 / 375 * 100vw);
+  }
+
+  .workflow-features {
+    gap: var(--spacing-800, 64px);
+  }
+
+  .workflow-feature {
+    width: calc(311 / 375 * 100vw);
+  }
+}
