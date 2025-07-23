@@ -1,0 +1,37 @@
+.btn {
+  /* layout */
+  display: flex;
+  width: 227px;
+  height: 56px;
+  padding: var(--spacing-0, 0px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-0, 0px);
+  /* style */
+  color: var(--color-white);
+  border-radius: 28px;
+  box-shadow: 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+}
+
+.btn-green {
+  background-color: var(--colors-green-500, #26BBA4);
+}
+
+.btn-blue {
+  background-color: var(--colors-blue-500, #6174FF);
+}
+
+/* TABLET */
+@media (max-width: 768px) {}
+
+/* INTERMEDIATE */
+
+@media (max-width: 500px) {
+  .btn {
+    width: 318px !important;
+    box-sizing: border-box;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 375px) {}

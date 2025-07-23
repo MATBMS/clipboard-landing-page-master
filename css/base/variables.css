@@ -17,3 +17,13 @@
   --color-white: #ffffff;
   --color-black: #000000;
 }
+
+/* SPACING */
+
+:root {
+  --spacing-800: 64px;
+  --spacing-700: 56px;
+  --spacing-600: 48px;
+  --spacing-300: 24px;
+  --spacing-200: 16px;
+}

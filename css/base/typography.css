@@ -1,10 +1,60 @@
 /* import font */
 @font-face {
   font-family: 'Bai Jamjuree';
-  src: url('../fonts/BaiJamjuree-Regular.ttf') format('truetype');
+  src: url('../../fonts/BaiJamjuree-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Bai Jamjuree SemiBold';
-  src: url('../fonts/BaiJamjuree-SemiBold.ttf') format('truetype');
+  src: url('../../fonts/BaiJamjuree-SemiBold.ttf') format('truetype');
+}
+
+/* heading */
+
+h1,
+.text-preset-1 {
+  font-family: "Bai Jamjuree SemiBold";
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: -0.75px;
+  color: var(--colors-gray-700, #4C545C);
+}
+
+/* paragraph */
+
+p,
+.text-preset-7 {
+  font-family: "Bai Jamjuree";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: var(--colors-gray-500, #9EABB2);
+}
+
+/* TABLET */
+@media (max-width: 768px) {
+
+  /* heading */
+  h1 {
+    font-size: 40px;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 375px) {
+
+  /* heading */
+  h1 {
+    font-size: 32px;
+    letter-spacing: -0.5px;
+  }
+
+  /* paragraph */
+  p {
+    font-size: 16px;
+  }
 }

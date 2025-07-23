@@ -12,7 +12,7 @@
 /* ============================= */
 
 @import url(./components/button.css);
-@import url(./components/card.css);
+@import url(./components/icon.css);
 @import url(./components/navbar.css);
 
 /* ============================= */
@@ -26,6 +26,6 @@
 /* ==       SECTIONS          == */
 /* ============================= */
 
-@import url(./sections/home.css);
+@import url(./sections/header.css);
 @import url(./sections/about.css);
 @import url(./sections/contact.css);
