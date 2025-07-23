@@ -1,0 +1,10 @@
+/* import font */
+@font-face {
+  font-family: 'Bai Jamjuree';
+  src: url('../fonts/BaiJamjuree-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Bai Jamjuree SemiBold';
+  src: url('../fonts/BaiJamjuree-SemiBold.ttf') format('truetype');
+}

@@ -1,0 +1,19 @@
+/* COLORS */
+
+:root {
+  /* Primary Colors */
+  --color-green-500: hsl(171, 66%, 44%);
+  --color-green-300: hsl(171, 52%, 58%);
+  --color-blue-500: hsl(233, 100%, 69%);
+  --color-blue-300: hsl(232, 100%, 70%);
+
+  /* Neutral Colors */
+  --color-gray-950: hsl(0, 0%, 16%);
+  --color-gray-700: hsl(210, 10%, 33%);
+  --color-gray-500: hsl(201, 11%, 66%);
+  --color-gray-50: hsl(180, 11%, 96%);
+
+  /* Basic Colors */
+  --color-white: #ffffff;
+  --color-black: #000000;
+}
