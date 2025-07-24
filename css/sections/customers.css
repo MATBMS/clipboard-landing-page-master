@@ -1,0 +1,126 @@
+#customers {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 160px;
+}
+
+.logo-group {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: var(--spacing-1200, 96px);
+  row-gap: var(--spacing-700, 56px);
+}
+
+/* LOGOS */
+
+.google-logo {
+  width: 165px;
+  height: 49px;
+}
+
+.ibm-logo {
+  width: 144px;
+  height: 72px;
+  flex-shrink: 0;
+}
+
+.microsoft-logo {
+  width: 160px;
+  height: 48px;
+  flex-shrink: 0;
+}
+
+.hp-logo {
+  width: 134.132px;
+  height: 56px;
+  flex-shrink: 0;
+}
+
+.vector-graphics-logo {
+  width: 125px;
+  height: 30px;
+}
+
+/* TABLET */
+@media (max-width: 768px) {
+  #customers {
+    margin-bottom: 155px;
+  }
+
+  .logo-group {
+    max-width: calc(593 / 768 * 100vw);
+    column-gap: var(--spacing-1000, 80px);
+  }
+
+  .google-logo {
+    width: 152.015px;
+    height: 45.144px;
+  }
+
+  .ibm-logo {
+    width: 132.668px;
+    height: 66.334px;
+    flex-shrink: 0;
+  }
+
+  .microsoft-logo {
+    width: 147.409px;
+    height: 44.223px;
+    flex-shrink: 0;
+  }
+
+  .hp-logo {
+    width: 123.576px;
+    height: 51.593px;
+    flex-shrink: 0;
+  }
+
+  .vector-graphics-logo {
+    width: 115.163px;
+    height: 27.639px;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 375px) {
+  #customers {
+    margin-bottom: 172px;
+  }
+
+  .logo-group {
+    max-width: calc(139 / 375 * 100vw);
+    row-gap: var(--spacing-700, 56px);
+  }
+
+  .google-logo {
+    width: 139px;
+    height: 41px;
+  }
+
+  .ibm-logo {
+    width: 121px;
+    height: 60px;
+    flex-shrink: 0;
+  }
+
+  .microsoft-logo {
+    width: 135px;
+    height: 40px;
+    flex-shrink: 0;
+  }
+
+  .hp-logo {
+    width: 113px;
+    height: 47px;
+    flex-shrink: 0;
+  }
+
+  .vector-graphics-logo {
+    width: 105px;
+    height: 25px;
+  }
+}
