@@ -28,12 +28,6 @@ header {
   align-self: stretch;
 }
 
-.header-btns {
-  display: flex;
-  justify-content: center;
-  gap: var(--spacing-200, 16px);
-}
-
 /* TABLET */
 
 @media (max-width: 768px) {
@@ -52,12 +46,6 @@ header {
 @media (max-width: 500px) {
   header {
     padding-top: 123px;
-  }
-
-  .header-btns {
-    flex-direction: column;
-    align-items: stretch;
-    gap: var(--spacing-300, 24px);
   }
 }
 

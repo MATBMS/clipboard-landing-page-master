@@ -1,3 +1,9 @@
+.btns {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-200, 16px);
+}
+
 .btn {
   /* layout */
   display: flex;
@@ -27,8 +33,14 @@
 /* INTERMEDIATE */
 
 @media (max-width: 500px) {
+  .btns {
+    flex-direction: column;
+    align-items: stretch;
+    gap: var(--spacing-300, 24px);
+  }
+
   .btn {
-    width: calc(318 - 500 * 100vw) !important;
+    width: calc(400 / 500 * 100vw) !important;
     box-sizing: border-box;
   }
 }
@@ -36,7 +48,7 @@
 /* MOBILE */
 @media (max-width: 375px) {
   .btn {
-    width: calc(318 - 375 * 100vw) !important;
+    width: calc(318 / 375 * 100vw) !important;
     box-sizing: border-box;
   }
 }
