@@ -55,6 +55,11 @@ footer {
   color: inherit;
 }
 
+.footer-link:hover,
+.footer-link:active {
+  color: var(--colors-green-500, #26BBA4);
+}
+
 /* SOCIALS */
 
 .social-links {
@@ -67,6 +72,18 @@ footer {
 .social-link {
   width: 24px;
   height: 24px;
+  transition: all 0.3s ease;
+}
+
+/* For inline SVGs */
+.social-link path {
+  fill: var(--color-gray-700, #4C545C);
+  transition: fill 0.3s ease;
+}
+
+.social-link:hover path,
+.social-link:active path {
+  fill: var(--colors-green-500, #26BBA4);
 }
 
 /* TABLET */
@@ -110,6 +127,3 @@ footer {
     gap: var(--spacing-500, 40px);
   }
 }
-
-/* MOBILE */
-@media (max-width: 375px) {}

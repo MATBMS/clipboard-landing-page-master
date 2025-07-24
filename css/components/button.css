@@ -1,3 +1,5 @@
+/* BUTTONS */
+
 .btns {
   display: flex;
   justify-content: center;
@@ -19,16 +21,27 @@
   box-shadow: 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
 }
 
+/* COLORS */
+
 .btn-green {
-  background-color: var(--colors-green-500, #26BBA4);
+  background-color: var(--color-green-500, #26BBA4);
 }
 
 .btn-blue {
-  background-color: var(--colors-blue-500, #6174FF);
+  background-color: var(--color-blue-500, #6174FF);
 }
 
-/* TABLET */
-@media (max-width: 768px) {}
+/* ACTIVE */
+
+.btn-green:hover,
+.btn-green:active {
+  background-color: var(--color-green-300, #5DCCBB);
+}
+
+.btn-blue:hover,
+.btn-blue:active {
+  background-color: var(--color-blue-300, #8897FF);
+}
 
 /* INTERMEDIATE */
 
