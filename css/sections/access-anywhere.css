@@ -17,7 +17,7 @@
 
 .access-anywhere-img {
   width: calc(809.673 / 1440 * 100vw);
-  min-width: 700px;
+  max-width: 809.673px;
   height: auto;
 }
 

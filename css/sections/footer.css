@@ -10,7 +10,8 @@ footer {
 }
 
 .footer-container {
-  min-width: calc(1110 / 1440 * 100vw);
+  width: calc(1110 / 1440 * 100vw);
+  max-width: 1110px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -18,7 +19,8 @@ footer {
 }
 
 .footer-main {
-  min-width: calc(670 / 1440 * 100vw);
+  width: calc(670 / 1440 * 100vw);
+  max-width: 670px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
