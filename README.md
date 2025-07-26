@@ -24,11 +24,11 @@ Users should be able to:
 
 ### Screenshot
 
-![Preview Screenshot](./images/preview.jpg
+![Preview Screenshot](./images/preview.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [GitHub Repo](https://github.com/MATBMS/clipboard-landing-page-master)
 - Live Site URL: [Live Site](https://matbms-clipboard-landing-page-master.netlify.app/)
 
 ## My process
@@ -42,10 +42,25 @@ Users should be able to:
 
 ### What I learned
 
-```css
-.proud-of-this-css {
-  color: papayawhip;
+I learned how to display a success pop-up when a user clicks the download button, providing immediate feedback and improving the user experience.
+
+```js
+function showSuccessPopup(btnContent) {
+  const message = `${btnContent} is successful!`;
+  const popup = document.getElementById("success-popup");
+  popup.querySelector(".success-popup-message").textContent = message;
+  popup.style.display = "block";
+  setTimeout(() => {
+    popup.style.display = "none";
+  }, 3000);
 }
+
+document.querySelectorAll(".btn").forEach((btn) => {
+  const btnContent = btn.textContent;
+  btn.addEventListener("click", function () {
+    showSuccessPopup(btnContent);
+  });
+});
 ```
 
 ### Responsive design
